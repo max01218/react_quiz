@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import MultiButtonData from './DATA';
 import MultiButton from './cgu_multiButton';
 import HelloCGU from './HelloCGU';
 
@@ -32,6 +32,9 @@ function App() {
       </div>
       <div>
         {MultiButton(10)}
+      </div>
+      <div>
+        {MultiButtonData(5)}
       </div>
   </div>
   );
