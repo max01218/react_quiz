@@ -1,29 +1,7 @@
 import './App.css';
-import MultiButtonData from './DATA';
 import MultiButton from './cgu_multiButton';
 import HelloCGU from './HelloCGU';
 
-
-/*function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}*/
 function App() {
   return(
     <div className="App">
@@ -32,9 +10,6 @@ function App() {
       </div>
       <div>
         {MultiButton(10)}
-      </div>
-      <div>
-        {MultiButtonData(5)}
       </div>
   </div>
   );
